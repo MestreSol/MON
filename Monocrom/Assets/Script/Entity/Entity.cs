@@ -2,11 +2,20 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-  public string Name;
-  public int Alma;
-  public int Carisma;
-  public int Intuição;
-  public int Percepcao;
-  public int Razao;
-  public int Violencia;
+    public string name;
+
+    // Atributos
+    public int alma;
+    public int carisma;
+    public int intuição;
+    public int percepcao;
+    public int razao;
+    public int violencia;
+
+    // Atributos Passivos
+    public int fortitude;
+    public int vontade;
+    public int reflexos;
+
+
 }
